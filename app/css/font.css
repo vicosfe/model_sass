@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "GillSansNovaLight";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/GillSansNovaLight.eot?#iefix") format("embedded-opentype"), url("../fonts/GillSansNovaLight.woff") format("woff"), url("../fonts/GillSansNovaLight.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "GillSansNovaHeavy";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/GillSansNovaHeavy.eot?#iefix") format("embedded-opentype"), url("../fonts/GillSansNovaHeavy.woff") format("woff"), url("../fonts/GillSansNovaHeavy.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "GillSansNovaBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/GillSansNovaBold.eot?#iefix") format("embedded-opentype"), url("../fonts/GillSansNovaBold.woff") format("woff"), url("../fonts/GillSansNovaBold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "GillSansNovaBook";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/GillSansNovaBook.eot?#iefix") format("embedded-opentype"), url("../fonts/GillSansNovaBook.woff") format("woff"), url("../fonts/GillSansNovaBook.ttf") format("truetype"); }

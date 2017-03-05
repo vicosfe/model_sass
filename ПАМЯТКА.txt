@@ -1,0 +1,53 @@
+					GIT
+git add . -добавить все
+git status - статус коммитов
+git commit -m "name_commit" -закоммитить
+git pull-обновить проект
+git push-отправить
+
+
+
+					Gulp
+npm install- скачать все модули после скачивания проекта с репозитория. 
+npm i name_module --save-dev При возникновании ошибки что отсутствует какой то модуль
+gulp - запустить gulp (browser-sync)
+gulp build-Front - сборка фронтенда. Запускается после каждой сделанной страницы
+gulp build-Back - сборка всего проекта. Делается после окончания работ.
+npm rebuild node-sass -  версия сас не совпадает с версией npm
+
+
+СТРУКТУРА ПРОЕКТА
+app - папка Вика
+production - Общая. Не трогать! (Только Гидра копирует файлы после обновления Виктора /gulp build-Front/ в свою папку www)
+www- папка Гидры
+
+Подробнее www 
+	index.php точка входа
+	assets - файлы Вика (Гидре копировать с production) 
+	applications/ папка бекенда
+		router.php роутинг запросов
+		core/ - абстрактные классы
+		остальное понятно, модели, вьюхи(копировать с продакшена), контроллеры 
+
+git clone //ссылка на проект
+git checkout dev
+
+
+Делаем изменения в папке app и только,затем пишем в cmd -    "gulp build-Front"
+git add .
+git commit -m "..."
+git push
+//branch dev	
+
+
+
+
+
+
+
+echo "# tour" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/jopa228322/tour.git
+git push -u origin master

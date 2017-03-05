@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style-loader.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</head>
+<body>
+<div id="preloader">
+<svg height="400" width="400" >
+  <g filter="url(#goo)">
+    <circle class="outer" cx="200" cy="200" r="150" />
+    <circle class="drop" cx="200" cy="200" r="15">
+  </g>
+
+  <defs>
+    <filter id="goo">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />
+      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+
+    </filter>
+  </defs>
+</svg>
+</div>
+<script>jQuery(document).ready(function($) {
+  $(window).load(function() {
+    setTimeout(function() {
+      $('#preloader').fadeOut('slow', function() {});
+    }, 2000);
+
+  });
+});
+</script>
+	
+</body>
+</html>

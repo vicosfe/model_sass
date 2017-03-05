@@ -1,0 +1,7 @@
+
+DirectoryIndex www/index.php
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^/assets/
+RewriteRule ^(.*)$ www/index.php [L]
